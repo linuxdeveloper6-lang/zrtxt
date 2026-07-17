@@ -1,4 +1,6 @@
 # Zrtxt
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/linuxdeveloper6-lang/zrtxt)](https://github.com/linuxdeveloper6-lang/zrtxt/releases)
 ## What is Zrtxt?
 **Zrtxt** - quick and lightweight **text-editor**.
 ## What he can do?
@@ -12,8 +14,8 @@
 
 ## Build from source
 ### Dependencies
-1. upk.
-2. gcc.
+1. upx
+2. gcc
 ### Building
 ```bash
 git clone https://github.com/linuxdeveloper6-lang/zrtxt.git
@@ -53,3 +55,4 @@ zrtxt -s <file> <text>
 ```
 ### License
 This project is **licensed** under the **MIT** license, see [LICENSE](LICENSE).
+
