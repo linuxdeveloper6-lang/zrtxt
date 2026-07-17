@@ -33,7 +33,7 @@ zrtxt -w <file>
 ```
 ### Append to a file
 ```bash
-zrtxt -f <file> <text>
+echo <text> | zrtxt -w <file>
 ```
 ### Clean file
 ```bash

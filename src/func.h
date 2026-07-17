@@ -1,7 +1,6 @@
 #ifndef ZRTXT_FUNC_H
 #define ZRTXT_FUNC_H
 void print(const char* txt);
-void fwrt(const char *readfile, const char *text);
 void ver();
 void help();
 void readf(const char* file);
