@@ -11,6 +11,10 @@
 - **Search in file**.
 
 ## Build from source
+### Dependencies
+1. upk.
+2. gcc.
+### Building
 ```bash
 git clone https://github.com/linuxdeveloper6-lang/zrtxt.git
 cd zrtxt
