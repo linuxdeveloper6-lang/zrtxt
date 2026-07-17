@@ -9,6 +9,19 @@
 - **Clean file**.
 - **Create file**.
 - **Search in file**.
+
+## Build from source
+```bash
+git clone https://github.com/linuxdeveloper6-lang/zrtxt.git
+cd zrtxt
+make
+sudo make install
+```
+### Removing
+```bash
+sudo make remove
+```
+
 ## Example
 ### Read file
 ```bash
@@ -34,14 +47,5 @@ zrtxt -n <file>
 ```bash
 zrtxt -s <file> <text>
 ```
-## Build from source
-```bash
-git clone https://github.com/linuxdeveloper6-lang/zrtxt.git
-cd zrtxt
-make
-sudo make install
-```
-### Removing
-```bash
-sudo make remove
-```
+### License
+This project is **licensed** under the **MIT** license, see [LICENSE](LICENSE).
