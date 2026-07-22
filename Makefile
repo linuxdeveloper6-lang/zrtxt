@@ -3,11 +3,8 @@ CCFLAGS = -O2 -s -fno-stack-protector -fomit-frame-pointer -fno-unwind-tables -s
 LDFLAGS = -Wl,--gc-sections -Wl,--strip-all -Wl,--no-undefined
 CFILES = src/main.c src/func.c
 NAME = zrtxt
-PACK = upx
-PACK_FLAGS = --best
 $(NAME): $(CFILES)
 	$(CC) $(CFILES) $(CCFLAGS) $(LDFLAGS) -o $(NAME)
-	$(PACK) $(PACK_FLAGS) $(NAME)
 clean:
 	rm -rf $(NAME)
 install:

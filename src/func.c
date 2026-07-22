@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #define MAJOR "1"
 #define MINOR "1"
-#define PATCH "3"
+#define PATCH "4"
 #define BUILD "release"
 void donemsg(const char *msg, const char *file) { print("Done. "); print(msg); print("'"); print(file); print("'"); print("\n"); }
 void print(const char* txt) { write(1, txt, strlen(txt)); }
